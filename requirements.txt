@@ -1,0 +1,8 @@
+livekit-agents[openai,silero,turn-detector,deepgram,google,anthropic,cartesia,elevenlabs,rime,playai,groq,whisper ]~=1.0
+python-dotenv
+requests
+livekit-agents
+gspread==6.2.0
+google-auth==2.40.1
+pinecone==6.0.2
+openai==1.77.0

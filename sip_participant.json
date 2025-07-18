@@ -1,0 +1,8 @@
+{
+    "sip_trunk_id": "ST_Ng9CYLKaAC2G",
+    "sip_call_to": "+919573XXXXXX",
+    "room_name": "outbound-room-name-+919573XXXXXX",
+    "participant_identity": "1",
+    "participant_name": "Aditi",
+    "krisp_enabled": true
+  }
