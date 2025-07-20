@@ -1,0 +1,45 @@
+# Voice Agent Core Dependencies
+livekit-agents[openai,silero,turn-detector,deepgram,google,anthropic,cartesia,elevenlabs,rime,playai,groq,whisper]~=1.0
+python-dotenv==1.0.0
+requests==2.31.0
+gspread==6.2.0
+google-auth==2.40.1
+pinecone==6.0.2
+openai==1.77.0
+
+# Management API Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+PyJWT==2.8.0
+
+# System Monitoring
+psutil==5.9.6
+
+# Database (for production)
+sqlalchemy==2.0.23
+alembic==1.13.1
+asyncpg==0.29.0  # For PostgreSQL
+
+# Redis (for session management and caching)
+redis==5.0.1
+aioredis==2.0.1
+
+# Security & Encryption
+cryptography==41.0.8
+
+# Logging & Monitoring
+structlog==23.2.0
+prometheus-client==0.19.0
+
+# Development & Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Production deployment
+gunicorn==21.2.0
